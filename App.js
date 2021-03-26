@@ -62,7 +62,8 @@ export default function App() {
     <View style={styles.screen} >
 
      
-      {/* {EmpolyeeData.map(empObj => <Empolyee {...empObj} />)} */}
+      {EmpolyeeData.map(empObj => <Empolyee {...empObj} />)}
+      
 
 
   
